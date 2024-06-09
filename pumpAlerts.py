@@ -45,10 +45,10 @@ logger.debug("Config: %s", config)
 def main():
     telegram = TelegramSender(
         token=config["AAHpzaWQFogiDldc6jSEHDoo8h4-MeeSiXw"],
-        chat_id=config["-1002135857346"],
+        chat_id=config["7290245691"],
         alert_chat_id=config["7290245691"]
         if "7290245691" in config and config["-1002135857346"] != 0
-        else config["-1002135857346"],
+        else config["7290245691"],
         bot_emoji=config["botEmoji"],
         top_emoji=config["topEmoji"],
         news_emoji=config["newsEmoji"],
