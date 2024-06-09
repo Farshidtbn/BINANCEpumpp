@@ -44,7 +44,7 @@ logger.debug("Config: %s", config)
 
 def main():
     telegram = TelegramSender(
-        token=config["AAHpzaWQFogiDldc6jSEHDoo8h4-MeeSiXw"],
+        token=config["7290245691:AAHpzaWQFogiDldc6jSEHDoo8h4-MeeSiXw"],
         chat_id=config["7290245691"],
         alert_chat_id=config["7290245691"]
         if "7290245691" in config and config["7290245691"] != 0
