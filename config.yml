@@ -35,11 +35,11 @@ outlierIntervals:
 # Used for telegram bot updates
 
 # Insert telegramToken obtained from @BotFather here
-telegramToken: mySecretToken
+7290245691:AAHpzaWQFogiDldc6jSEHDoo8h4-MeeSiXw: mySecretToken
 # Insert Chat ID obtained from @get_id_bot here
-telegramChatId: mySecretChatId
+-1002135857346: mySecretChatId
 # Insert Chat ID for top pump dump alert, if left on `0` it'll send the message to telegram chat id
-telegramAlertChatId: 0
+-1002135857346: 0
 
 # Useful Params
 
@@ -78,8 +78,8 @@ additionalStatsEnabled: True
 noOfReportedCoins: 5
 # Intervals for top pump and dump to be sent, ensure its in chartIntervals + outlierIntervals as well
 topReportIntervals:
-  - 3h
-  - 6h
+  - 5m
+  - 1h
 
 # Define your own bot emojis.
 botEmoji: ! "\U0001F916" # 🤖
