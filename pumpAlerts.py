@@ -47,7 +47,7 @@ def main():
         token=config["AAHpzaWQFogiDldc6jSEHDoo8h4-MeeSiXw"],
         chat_id=config["7290245691"],
         alert_chat_id=config["7290245691"]
-        if "7290245691" in config and config["-1002135857346"] != 0
+        if "7290245691" in config and config["7290245691"] != 0
         else config["7290245691"],
         bot_emoji=config["botEmoji"],
         top_emoji=config["topEmoji"],
