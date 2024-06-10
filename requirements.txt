@@ -2,3 +2,15 @@ colorlog
 requests
 pyyaml
 python-telegram-bot==13.13
+APScheduler 
+python-telegram-bot 
+certifi 
+charset-normalizer 
+colorlog 
+cachetools 
+tornado 
+tzlocal 
+urllib3 
+six 
+idna 
+pytz
