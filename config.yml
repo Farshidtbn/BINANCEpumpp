@@ -74,8 +74,8 @@ additionalStatsEnabled: True
 noOfReportedCoins: 5
 # Intervals for top pump and dump to be sent, ensure its in chartIntervals + outlierIntervals as well
 topReportIntervals:
-  - 1m
   - 5m
+  - 15m
 
 # Define your own bot emojis.
 botEmoji: ! "\U0001F916" # 🤖
