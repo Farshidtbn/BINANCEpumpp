@@ -76,6 +76,17 @@ noOfReportedCoins: 5
 topReportIntervals:
   - 5m
   - 15m
+  - 30m
+  - 1h
+  - 2h
+  - 3h
+  - 4h
+  - 6h
+  - 12h
+  - 1d
+  - 3d
+  - 1w
+  - 1M
 
 # Define your own bot emojis.
 botEmoji: ! "\U0001F916" # 🤖
