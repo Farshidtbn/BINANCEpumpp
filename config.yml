@@ -86,7 +86,7 @@ topReportIntervals:
   - 1d
   - 3d
   - 1w
-  - 1M
+  - 1m
 
 # Define your own bot emojis.
 botEmoji: ! "\U0001F916" # 🤖
